@@ -10,6 +10,7 @@ LABEL maintainer="SoonWook Hong<soonuki99@gmail.com>" \
       version="$VERSION" \
       description="This image is guestbook service"
  
+ 
 ENV APP_HOME /app
 EXPOSE 8080
 VOLUME /app/upload
