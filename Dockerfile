@@ -2,6 +2,7 @@ FROM openjdk:11
 
 ARG VERSION
 
+
 COPY target/guestbook-0.0.1-SNAPSHOT.jar /app/guestbook.jar
 
 LABEL maintainer="SoonWook Hong<soonuki99@gmail.com>" \
